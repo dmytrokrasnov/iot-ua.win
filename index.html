@@ -14,7 +14,9 @@
 
     <link rel="icon" href="assets/favicon.svg">
 
-    <link rel="manifest" href="manifest.json">
+ <!--   
+ <link rel="manifest" href="manifest.json">
+ -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,6 +26,7 @@
 
     <link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/modal.css">
+	<link rel="stylesheet" href="css/chat.css">
 </head>
 
 <body>
@@ -90,12 +93,12 @@
 
                 </p>
 
-                <h1>
+                <h2>
 
-                    Інженерні рішення,
-                    що працюють роками.
+                    ТЕХНОЛОГІЇ СЬОГОДНІ - 
+                    БЕЗПЕКА ТА КОМФОРТ ЗАВТРА.
 
-                </h1>
+                </h2>
 
                 <p class="description">
 
@@ -202,7 +205,7 @@
 
             <article class="service-card">
 
-                <img src="assets/icons/control.png"
+                <img src="assets/icons/control.svg"
                      alt="Контроль доступу"
                      class="service-icon">
 
@@ -569,6 +572,57 @@
 </div>
 
 <script src="js/modal.js"></script>
+
+<!-- ==========================================
+     IoT Assistant
+========================================== -->
+
+<button id="chatToggle" class="chat-toggle">
+
+    <img src="assets/icons/iot-assistant.svg" alt="IoT Assistant">
+
+</button>
+
+<div id="chatWindow" class="chat-window">
+
+    <div class="chat-header">
+
+        <img src="assets/icons/iot-assistant.svg">
+
+        <div>
+
+            <h3>IoT Assistant</h3>
+
+            <span>Онлайн</span>
+
+        </div>
+
+        <button id="chatClose">&times;</button>
+
+    </div>
+
+    <div id="chatMessages" class="chat-messages">
+
+    </div>
+
+    <div class="chat-input">
+
+        <input
+            id="chatInput"
+            type="text"
+            placeholder="Напишіть повідомлення...">
+
+        <button id="chatSend">
+
+            ➜
+
+        </button>
+
+    </div>
+
+</div>
+
+<script src="js/chat.js"></script>
 
 </body>
 
