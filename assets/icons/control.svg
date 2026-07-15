@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="40.0673mm" height="49.2994mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 258.49 318.06"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="60.2mm" height="60.2mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 87.39 87.39"
  xmlns:xlink="http://www.w3.org/1999/xlink"
  xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
  <defs>
@@ -24,38 +24,42 @@ viewBox="0 0 258.49 318.06"
   <style type="text/css">
    <![CDATA[
     @font-face { font-family:"Arial";font-variant:normal;font-style:normal;font-weight:bold;src:url("#FontID0") format(svg)}
-    .str3 {stroke:#FFED00;stroke-width:6.45;stroke-miterlimit:22.9256}
-    .str0 {stroke:#00A0E3;stroke-width:6.45;stroke-miterlimit:22.9256}
-    .str1 {stroke:#FFED00;stroke-width:4.84;stroke-miterlimit:22.9256}
-    .str2 {stroke:#00A0E3;stroke-width:3.23;stroke-miterlimit:22.9256}
+    .str3 {stroke:#FFED00;stroke-width:1.45;stroke-miterlimit:22.9256}
+    .str0 {stroke:#00A0E3;stroke-width:1.45;stroke-miterlimit:22.9256}
+    .str1 {stroke:#FFED00;stroke-width:1.09;stroke-miterlimit:22.9256}
+    .str2 {stroke:#00A0E3;stroke-width:0.73;stroke-miterlimit:22.9256}
+    .str4 {stroke:#00A0E3;stroke-width:0.29;stroke-miterlimit:22.9256}
     .fil0 {fill:none}
     .fil1 {fill:#FFED00}
-    .fnt0 {font-weight:bold;font-size:54.62px;font-family:'Arial'}
+    .fnt0 {font-weight:bold;font-size:12.29px;font-family:'Arial'}
    ]]>
   </style>
  </defs>
  <g id="Layer_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <path class="fil0 str0" d="M25.43 3.23l130.17 0c12.21,0 22.2,9.99 22.2,22.2l0 139.02c-1.34,-0.16 -2.75,0.17 -3.92,1.02l-12.37 9.02 0 -146.08c0,-5.15 -4.21,-9.36 -9.36,-9.36l-125.82 0c-5.15,0 -9.36,4.21 -9.36,9.36l0 223.22c0,5.15 4.21,9.36 9.36,9.36l125.82 0c0.28,0 0.57,-0.01 0.84,-0.04l9.16 12.56c-2.07,0.65 -4.28,0.99 -6.56,0.99l-130.17 0c-12.21,0 -22.2,-9.99 -22.2,-22.2l0 -226.89c0,-12.21 9.99,-22.2 22.2,-22.2z"/>
-  <rect class="fil0 str1" x="44.06" y="50.03" width="90.13" height="39.26" rx="7.61" ry="7.61"/>
-  <rect class="fil0 str2" x="43.2" y="124.07" width="19.35" height="19.35" rx="1.63" ry="3.75"/>
-  <rect class="fil0 str2" x="80.05" y="124.07" width="19.35" height="19.35" rx="1.63" ry="3.75"/>
-  <rect class="fil0 str2" x="116.5" y="124.07" width="19.35" height="19.35" rx="1.63" ry="3.75"/>
-  <rect class="fil0 str2" x="43.2" y="165.33" width="19.35" height="19.35" rx="1.63" ry="3.75"/>
-  <rect class="fil0 str2" x="80.05" y="165.33" width="19.35" height="19.35" rx="1.63" ry="3.75"/>
-  <rect class="fil0 str2" x="116.5" y="165.33" width="19.35" height="19.35" rx="1.63" ry="3.75"/>
-  <rect class="fil0 str2" x="43.2" y="205.79" width="19.35" height="19.35" rx="1.63" ry="3.75"/>
-  <rect class="fil0 str2" x="80.05" y="205.79" width="19.35" height="19.35" rx="1.63" ry="3.75"/>
-  <path class="fil0 str2" d="M126.87 225.14l-6.61 0c-2.06,0 -3.75,-1.69 -3.75,-3.75l0 -11.85c0,-1.26 0.63,-2.37 1.58,-3.06 -1.4,1.9 -1.49,4.57 -0.03,6.58l8.81 12.08z"/>
-  <path class="fil0 str3" d="M158.73 125.27c24.36,-14.83 56.02,-8.52 72.83,14.52 8.46,11.6 12.03,26.04 9.96,40.25"/>
-  <path class="fil0 str3" d="M169.77 143.65c15.04,-8.03 33.7,-3.75 43.75,10.03 5.89,8.08 7.96,18.34 5.65,28.07"/>
-  <path class="fil0 str3" d="M183.88 164.7c4.15,-2.04 9.16,-0.8 11.88,2.93 2.42,3.32 2.44,7.82 0.04,11.16"/>
-  <rect class="fil0 str0" transform="matrix(0.807927 -0.589282 0.589282 0.807927 114.787 208.577)" width="78.7" height="134.25" rx="5.55" ry="5.55"/>
-  <g transform="matrix(0.209648 0.212973 -0.212973 0.209648 1250.2 -1675.33)">
-   <text x="1889.54" y="6987.61"  class="fil1 fnt0">ACCESS</text>
+  <g id="_2064152541536">
+   <path class="fil0 str0" d="M27.95 12.54l29.29 0c2.75,0 5,2.25 5,5l0 31.28c-0.3,-0.04 -0.62,0.04 -0.88,0.23l-2.78 2.03 0 -32.87c0,-1.16 -0.95,-2.11 -2.11,-2.11l-28.31 0c-1.16,0 -2.11,0.95 -2.11,2.11l0 50.23c0,1.16 0.95,2.11 2.11,2.11l28.31 0c0.06,0 0.13,-0 0.19,-0.01l2.06 2.83c-0.47,0.15 -0.96,0.22 -1.48,0.22l-29.29 0c-2.75,0 -5,-2.25 -5,-5l0 -51.05c0,-2.75 2.25,-5 5,-5z"/>
+   <rect class="fil0 str1" x="32.14" y="23.08" width="20.28" height="8.83" rx="1.71" ry="1.71"/>
+   <rect class="fil0 str2" x="31.95" y="39.74" width="4.36" height="4.36" rx="0.37" ry="0.84"/>
+   <rect class="fil0 str2" x="40.24" y="39.74" width="4.36" height="4.36" rx="0.37" ry="0.84"/>
+   <rect class="fil0 str2" x="48.44" y="39.74" width="4.36" height="4.36" rx="0.37" ry="0.84"/>
+   <rect class="fil0 str2" x="31.95" y="49.02" width="4.36" height="4.36" rx="0.37" ry="0.84"/>
+   <rect class="fil0 str2" x="40.24" y="49.02" width="4.36" height="4.36" rx="0.37" ry="0.84"/>
+   <rect class="fil0 str2" x="48.44" y="49.02" width="4.36" height="4.36" rx="0.37" ry="0.84"/>
+   <rect class="fil0 str2" x="31.95" y="58.12" width="4.36" height="4.36" rx="0.37" ry="0.84"/>
+   <rect class="fil0 str2" x="40.24" y="58.12" width="4.36" height="4.36" rx="0.37" ry="0.84"/>
+   <path class="fil0 str2" d="M50.78 62.48l-1.49 0c-0.46,0 -0.84,-0.38 -0.84,-0.84l0 -2.67c0,-0.28 0.14,-0.53 0.36,-0.69 -0.32,0.43 -0.33,1.03 -0.01,1.48l1.98 2.72z"/>
+   <path class="fil0 str3" d="M57.94 40.01c5.48,-3.34 12.61,-1.92 16.39,3.27 1.9,2.61 2.71,5.86 2.24,9.06"/>
+   <path class="fil0 str3" d="M60.43 44.14c3.38,-1.81 7.58,-0.84 9.84,2.26 1.33,1.82 1.79,4.13 1.27,6.32"/>
+   <path class="fil0 str3" d="M63.6 48.88c0.93,-0.46 2.06,-0.18 2.67,0.66 0.54,0.75 0.55,1.76 0.01,2.51"/>
+   <rect class="fil0 str0" transform="matrix(0.807927 -0.589282 0.589282 0.807927 48.0563 58.7512)" width="17.71" height="30.21" rx="1.25" ry="1.25"/>
+   <g transform="matrix(0.209648 0.212973 -0.212973 0.209648 1190.38 213.123)">
+    <text x="-3035.61" y="2329.66"  class="fil1 fnt0">ACCESS</text>
+   </g>
+   <g transform="matrix(0.209648 0.212973 -0.212973 0.209648 1190.38 213.123)">
+    <text x="-3027.75" y="2343.39"  class="fil1 fnt0">CARD</text>
+   </g>
   </g>
-  <g transform="matrix(0.209648 0.212973 -0.212973 0.209648 1250.2 -1675.33)">
-   <text x="1924.47" y="7048.63"  class="fil1 fnt0">CARD</text>
-  </g>
+  <rect class="fil0 str4" x="0.15" y="0.15" width="87.1" height="87.1" rx="8.81" ry="9.23"/>
  </g>
 </svg>

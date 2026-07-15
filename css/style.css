@@ -494,23 +494,16 @@ nav a:hover::after{
 
 .service-card{
 
-    position:relative;
-
-    padding:38px;
-
-    border-radius:var(--radius);
-
-    background:var(--card);
-
-    border:1px solid var(--cardBorder);
-
-    backdrop-filter:blur(18px);
+    cursor:pointer;
 
     overflow:hidden;
 
-    transition:var(--transition);
+    position:relative;
 
-    cursor:pointer;
+    transition:
+        transform .35s cubic-bezier(.22,.61,.36,1),
+        box-shadow .35s,
+        border-color .35s;
 
 }
 
@@ -522,37 +515,65 @@ nav a:hover::after{
 
     inset:0;
 
-    background:
-
-    linear-gradient(135deg,
-
-    rgba(46,167,255,.16),
-
-    transparent 60%);
+    background:linear-gradient(
+        135deg,
+        rgba(24,160,251,.12),
+        transparent 60%
+    );
 
     opacity:0;
 
-    transition:.4s;
+    transition:.35s;
 
 }
 
 .service-card:hover{
 
-    transform:translateY(-14px);
-
-    border-color:rgba(46,167,255,.45);
+    transform:
+        translateY(-8px)
+        scale(1.02);
 
     box-shadow:
-
-    0 25px 60px rgba(0,0,0,.45),
-
-    0 0 40px rgba(46,167,255,.18);
+        0 18px 45px rgba(24,160,251,.18);
 
 }
 
 .service-card:hover::before{
 
     opacity:1;
+
+}
+
+.service-card::after{
+
+    content:"Детальніше →";
+
+    position:absolute;
+
+    left:50%;
+    bottom:18px;
+
+    transform:
+        translateX(-50%)
+        translateY(15px);
+
+    opacity:0;
+
+    color:#18a0fb;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+.service-card:hover::after{
+
+    opacity:1;
+
+    transform:
+        translateX(-50%)
+        translateY(0);
 
 }
 
@@ -1283,71 +1304,180 @@ filter:blur(35px);
 
     position:relative;
 
-    display:flex;
+    overflow:hidden;
 
-    flex-direction:column;
+    display:flex;
 
     justify-content:center;
 
     align-items:center;
 
-    text-align:center;
+    min-height:320px;
 
-    overflow:hidden;
+    padding:35px;
 
-    min-height:260px;
+    border-radius:24px;
 
-    padding:30px;
+    background:rgba(255,255,255,.04);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(18px);
+
+    cursor:pointer;
+
+    transition:
+        transform .35s,
+        border-color .35s,
+        box-shadow .35s;
 
 }
 
 .advantage-card:hover{
 
-    transform:translateY(-8px);
+    transform:translateY(-10px);
 
     border-color:rgba(24,160,251,.35);
 
     box-shadow:
-        0 20px 45px rgba(0,0,0,.35),
-        0 0 35px rgba(24,160,251,.15);
+        0 20px 60px rgba(0,0,0,.35),
+        0 0 40px rgba(24,160,251,.15);
 
 }
+
+/* ===========================
+   ICON
+=========================== */
 
 .advantage-icon{
 
-    width:150px;
-
-    margin-bottom:25px;
-
-    transition:all .55s cubic-bezier(.22,1,.36,1);
-
-}
-
-.advantage-card:hover .advantage-icon{
-
     position:absolute;
 
-    top:22px;
+    top:48px;
 
-    left:22px;
+    left:50%;
 
-    width:64px;
+    transform:translateX(-50%);
 
-    margin:0;
+    z-index:3;
+
+    transition:.55s cubic-bezier(.22,1,.36,1);
 
 }
+
+.advantage-icon img{
+
+    width:200px;
+
+    height:200px;
+
+    display:block;
+
+    object-fit:contain;
+
+    filter:drop-shadow(0 0 0 rgba(24,160,251,0));
+
+    transition:
+
+        width .55s,
+
+        height .55s,
+
+        transform .55s,
+
+        filter .55s;
+
+}
+
+/* ===========================
+   CONTENT
+=========================== */
 
 .advantage-content{
 
-transition:.45s;
+    position:absolute;
+
+    left:30px;
+
+    right:30px;
+
+    bottom:35px;
+
+    text-align:center;
+
+}
+
+.advantage-content h3{
+
+    margin:0;
+
+    color:#fff;
+
+    font-size:1.45rem;
+
+    line-height:1.3;
+
+    transition:.45s;
+
+}
+
+.advantage-content p{
+
+    margin-top:18px;
+
+    color:#b8c4d6;
+
+    line-height:1.7;
+
+    opacity:0;
+
+    transform:translateY(18px);
+
+    transition:.35s;
+
+}
+
+/* ===========================
+   HOVER
+=========================== */
+
+.advantage-card:hover .advantage-icon{
+
+    top:24px;
+
+    left:24px;
+
+    transform:none;
+
+}
+
+.advantage-card:hover .advantage-icon img{
+
+    width:100px;
+
+    height:100px;
+
+    transform:rotate(-30deg);
+
+    filter:
+
+        drop-shadow(0 0 15px rgba(24,160,251,.6));
 
 }
 
 .advantage-card:hover .advantage-content{
 
-    opacity:1;
+    text-align:left;
 
-    transform:translateY(0);
+    top:150px;
+
+    bottom:auto;
+
+}
+
+.advantage-card:hover .advantage-content h3{
+
+    color:#18a0fb;
 
 }
 
@@ -1355,32 +1485,13 @@ transition:.45s;
 
     opacity:1;
 
-    transform:translateY(0);
+    transform:none;
 
 }
 
-.advantage-content h3{
-
-
-    color:#fff;
-
-    margin:0;
-
-}
-
-.advantage-content p{
-
-    margin-top:14px;
-
-    color:#b8c4d6;
-
-    opacity:0;
-
-    transform:translateY(20px);
-
-    transition:.35s;
-
-}
+/* ===========================
+   LIGHT
+=========================== */
 
 .advantage-card::before{
 
@@ -1388,26 +1499,64 @@ transition:.45s;
 
     position:absolute;
 
-    inset:-100%;
+    inset:0;
 
-    background:linear-gradient(
+    opacity:0;
 
-        130deg,
+    transition:.45s;
 
-        transparent 35%,
+    background:
 
-        rgba(24,160,251,.12) 50%,
+        radial-gradient(
 
-        transparent 65%
+            circle at top left,
 
-    );
+            rgba(24,160,251,.18),
 
-    transition:.8s;
+            transparent 45%
+
+        ),
+
+        radial-gradient(
+
+            circle at bottom right,
+
+            rgba(24,160,251,.08),
+
+            transparent 60%
+
+        );
 
 }
 
 .advantage-card:hover::before{
 
-    transform:translate(60%,60%);
+    opacity:1;
+
+}
+
+.advantage-card::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:0;
+
+    height:3px;
+
+    background:#18a0fb;
+
+    transition:.45s;
+
+}
+
+.advantage-card:hover::after{
+
+    width:100%;
 
 }

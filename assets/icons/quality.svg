@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="130mm" height="100mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 561.51 431.93"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#FFED00;stroke-width:4.32;stroke-miterlimit:22.9256}
+    .str0 {stroke:#00A0E3;stroke-width:4.32;stroke-miterlimit:22.9256}
+    .str2 {stroke:#00A0E3;stroke-width:2.16;stroke-miterlimit:22.9256}
+    .str4 {stroke:#FFED00;stroke-width:6.48;stroke-miterlimit:22.9256}
+    .str3 {stroke:#00A0E3;stroke-width:6.48;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+    .fil2 {fill:#FFED00}
+    .fil1 {fill:#00A0E3}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polyline class="fil0 str0" points="125.36,191.24 101.96,191.24 79.2,164.13 59.64,159 "/>
+  <polyline class="fil0 str0" points="127.28,211.99 95.87,211.99 78.55,191.24 59,191.24 "/>
+  <line class="fil0 str0" x1="72.14" y1="220.55" x2="38.48" y2= "220.55" />
+  <polyline class="fil0 str0" points="132.09,229.93 100.68,229.93 84.65,250.11 60.92,250.11 "/>
+  <polyline class="fil0 str0" points="136.8,250.11 114.97,250.11 88.41,279.17 72.82,281.29 "/>
+  <circle class="fil0 str1" cx="49.55" cy="156.58" r="4.32"/>
+  <circle class="fil0 str1" cx="26.55" cy="220.55" r="4.32"/>
+  <circle class="fil0 str1" cx="61.39" cy="282.89" r="4.32"/>
+  <circle class="fil0 str2" cx="51.04" cy="191.24" r="4.32"/>
+  <circle class="fil0 str2" cx="52.68" cy="250.11" r="4.32"/>
+  <polyline class="fil0 str0" points="436.15,191.24 459.55,191.24 482.31,164.13 501.87,159 "/>
+  <polyline class="fil0 str0" points="434.23,211.99 465.65,211.99 482.96,191.24 502.51,191.24 "/>
+  <line class="fil0 str0" x1="489.37" y1="220.55" x2="523.03" y2= "220.55" />
+  <polyline class="fil0 str0" points="429.42,229.93 460.84,229.93 476.87,250.11 500.59,250.11 "/>
+  <polyline class="fil0 str0" points="424.71,250.11 446.54,250.11 473.1,279.17 488.69,281.29 "/>
+  <circle class="fil0 str1" cx="511.96" cy="156.58" r="4.32"/>
+  <circle class="fil0 str1" cx="534.96" cy="220.55" r="4.32"/>
+  <circle class="fil0 str1" cx="500.12" cy="282.89" r="4.32"/>
+  <circle class="fil0 str2" cx="510.48" cy="191.24" r="4.32"/>
+  <circle class="fil0 str2" cx="508.83" cy="250.11" r="4.32"/>
+  <path class="fil0 str3" d="M192.51 234.66l-57.87 -68.6 57.33 -73.09 89.57 0 -63.06 73.09 63.06 174.13m0 0l-52.11 -61.77"/>
+  <path class="fil0 str3" d="M360.66 246.41l67.78 -80.35 -57.33 -73.09 -89.57 0 63.06 73.09 -63.06 174.13m0 0l52.11 -61.77"/>
+  <path class="fil0 str3" d="M134.64 166.06l130.86 0m32.09 0l130.86 0"/>
+  <path class="fil1" d="M281.54 340.2l1.22 -1.78c0.59,0.4 0.94,1.07 0.94,1.78 0,1.19 -0.97,2.16 -2.16,2.16 -1.19,0 -2.16,-0.97 -2.16,-2.16 0,-0.74 0.38,-1.42 1,-1.82l1.16 1.82z"/>
+  <circle class="fil0 str0" cx="207.99" cy="253.02" r="8.64"/>
+  <circle class="fil0 str0" cx="355.09" cy="253.02" r="8.64"/>
+  <circle class="fil0 str0" cx="205.22" cy="129.52" r="8.64"/>
+  <circle class="fil0 str0" cx="357.86" cy="129.52" r="8.64"/>
+  <line class="fil0 str3" x1="191.97" y1="92.97" x2="197.27" y2= "107.6" />
+  <line class="fil0 str3" x1="371.11" y1="92.97" x2="365.81" y2= "107.6" />
+  <rect class="fil2" x="279.43" y="42.9" width="4.32" height="21.6" rx="4.32" ry="4.47"/>
+  <rect class="fil2" transform="matrix(0.626257 0.626257 -0.38929 0.38929 308.225 58.9297)" width="4.88" height="23.54" rx="4.88" ry="4.88"/>
+  <rect class="fil2" transform="matrix(0.626257 -0.626257 0.38929 0.38929 251.352 61.9839)" width="4.88" height="23.54" rx="4.88" ry="4.88"/>
+  <rect class="fil2" x="279.79" y="367.44" width="4.32" height="21.6" rx="4.32" ry="4.47"/>
+  <rect class="fil2" transform="matrix(0.626257 -0.626257 -0.38929 -0.38929 308.579 373.002)" width="4.88" height="23.54" rx="4.88" ry="4.88"/>
+  <rect class="fil2" transform="matrix(0.626257 0.626257 0.38929 -0.38929 251.706 369.947)" width="4.88" height="23.54" rx="4.88" ry="4.88"/>
+  <path class="fil0 str4" d="M254.3 202.09c15.05,0 27.24,-12.2 27.24,-27.24 0,15.05 12.2,27.24 27.24,27.24 -15.05,0 -27.24,12.2 -27.24,27.24 0,-15.05 -12.2,-27.24 -27.24,-27.24z"/>
+  <rect class="fil0" width="561.51" height="431.93"/>
+ </g>
+</svg>

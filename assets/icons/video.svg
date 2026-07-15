@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="60.2mm" height="60.2mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 90.77 90.77"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str2 {stroke:#FFED00;stroke-width:1.51;stroke-miterlimit:22.9256}
+    .str0 {stroke:#00A0E3;stroke-width:1.51;stroke-miterlimit:22.9256}
+    .str1 {stroke:#00A0E3;stroke-width:1.13;stroke-miterlimit:22.9256}
+    .str3 {stroke:#FFED00;stroke-width:0.75;stroke-miterlimit:22.9256}
+    .str4 {stroke:#00A0E3;stroke-width:0.3;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2063399474112">
+   <path class="fil0 str0" d="M30.76 17.37l43.95 20.88c-22.87,-2.09 -17.64,22.28 -37.27,9.83l-4.01 1.7 -21.49 -12.14c-1.27,-1.07 -2.65,-1.39 -2.89,-2.71 -1.87,-10.22 14.24,-22.25 21.71,-17.56z"/>
+   <path class="fil0 str1" d="M12.67 34.12c3.14,-7.13 6.95,-15.69 16.39,-12.99l35.7 15.9"/>
+   <path class="fil0 str0" d="M11.95 37.65c-0.24,17.1 -0.93,12.29 41.52,36.18 -8,-3.66 -8.43,-13.47 -4.98,-20.76"/>
+   <path class="fil0 str2" d="M53.48 73.81c1.13,0.43 2.34,0.64 3.6,0.64 7.41,0 14.92,-7.28 16.78,-16.27 0.35,-1.71 0.48,-3.4 0.38,-5.02"/>
+   <path class="fil0 str0" d="M74.25 53.16c-0.41,-6.71 -4.62,-11.25 -10.43,-11.25 -1.71,0 -3.48,0.4 -5.22,1.16"/>
+   <path class="fil0 str0" d="M34.5 63.43c-5.76,-3.47 -7.83,-9.3 -5.14,-14.45 0.18,-0.34 0.38,-0.68 0.6,-1.01"/>
+   <path class="fil0 str0" d="M74.72 38.25c4.21,0.99 7.16,4.41 7.16,8.33 0,3.05 -1.8,5.88 -4.72,7.42"/>
+   <ellipse class="fil0 str2" transform="matrix(0.455945 -0 -0.0738319 0.356656 60.4462 58.1791)" rx="11.47" ry="17.79"/>
+   <path class="fil0 str3" d="M51.53 66.14c1.14,2.5 3.15,3.92 5.52,3.92 0.85,0 1.72,-0.18 2.59,-0.54"/>
+  </g>
+  <rect class="fil0 str4" x="0.15" y="0.15" width="90.47" height="90.47" rx="9.15" ry="9.59"/>
+ </g>
+</svg>

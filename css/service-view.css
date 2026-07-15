@@ -1,0 +1,449 @@
+/* ===============================
+   Service View
+================================ */
+
+.service-view{
+
+    position:fixed;
+    inset:0;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:60px;
+
+    background:rgba(5,8,14,.72);
+    backdrop-filter:blur(14px);
+
+    opacity:0;
+    visibility:hidden;
+    pointer-events:none;
+
+    transition:.35s ease;
+
+    z-index:9999;
+
+}
+
+.service-view.active{
+
+    opacity:1;
+    visibility:visible;
+    pointer-events:auto;
+
+}
+
+.service-view-panel{
+
+    width:min(900px,100%);
+    max-height:82vh;
+
+    overflow:auto;
+
+    border-radius:28px;
+
+    background:rgba(16,21,33,.96);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    box-shadow:
+        0 30px 80px rgba(0,0,0,.45);
+
+    transform:translateY(50px) scale(.95);
+
+    opacity:0;
+
+    transition:
+        transform .45s cubic-bezier(.2,.8,.2,1),
+        opacity .35s ease;
+
+}
+
+.service-view.active .service-view-panel{
+
+    transform:translateY(0) scale(1);
+
+    opacity:1;
+
+}
+
+/* ---------- HERO ---------- */
+
+.service-hero{
+
+    position:relative;
+
+    width:100%;
+    height:300px;
+
+    overflow:hidden;
+
+    border-radius:28px 28px 0 0;
+
+    background:#0d1118;
+
+}
+
+.service-hero img{
+
+    position:absolute;
+
+    inset:0;
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    object-position:center;
+
+    transition:transform .8s ease;
+
+}
+
+.service-view.active .service-hero img{
+
+    transform:scale(1.05);
+
+}
+/*
+.service-hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    z-index:2;
+
+    background:linear-gradient(
+        90deg,
+
+        rgba(8,12,20,0) 0%,
+
+        rgba(8,12,20,.05) 35%,
+
+        rgba(8,12,20,.45) 55%,
+
+        rgba(8,12,20,.80) 72%,
+
+        rgba(8,12,20,.95) 88%,
+
+        rgba(8,12,20,1) 100%
+
+    );
+
+}
+
+.service-hero::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    z-index:3;
+
+    background:linear-gradient(
+
+        180deg,
+
+        rgba(0,0,0,.15),
+
+        transparent 35%,
+
+        rgba(0,0,0,.35)
+
+    );
+
+}
+
+/* ---------- BODY ---------- */
+
+.service-body{
+
+    padding:32px;
+
+}
+
+.service-body h2{
+
+    font-size:2.2rem;
+
+    margin-bottom:22px;
+
+}
+
+.service-body p{
+
+    color:#b9c4d1;
+
+    line-height:1.9;
+
+    margin-bottom:35px;
+
+}
+
+/* ---------- ADVANTAGES ---------- */
+
+#serviceHeroAdvantages{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:16px;
+
+    margin:35px 0;
+
+}
+
+.service-feature{
+
+    display:flex;
+    align-items:center;
+
+    gap:14px;
+
+    padding:18px;
+
+    border-radius:16px;
+
+    background:rgba(255,255,255,.04);
+
+    border:1px solid rgba(255,255,255,.05);
+
+    transition:.25s;
+
+}
+
+.service-feature:hover{
+
+    transform:translateY(-4px);
+
+    border-color:rgba(24,160,251,.35);
+
+    background:rgba(24,160,251,.08);
+
+}
+
+.service-feature-icon{
+
+    width:36px;
+    height:36px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:var(--accent);
+
+    color:#fff;
+
+    font-weight:bold;
+
+    flex-shrink:0;
+
+}
+
+/* ---------- BRANDS ---------- */
+
+#serviceHeroBrands{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+
+    margin:45px 0;
+
+}
+
+#serviceHeroBrands img{
+
+    height:42px;
+
+    opacity:.75;
+
+    transition:.3s;
+
+}
+
+#serviceHeroBrands img:hover{
+
+    opacity:1;
+
+    transform:translateY(-5px);
+
+}
+
+/* ---------- BUTTON ---------- */
+
+#serviceConsultBtn{
+
+    width:100%;
+
+    padding:18px;
+
+    font-size:1.05rem;
+
+}
+
+/* ---------- CLOSE ---------- */
+
+.service-close{
+
+    position:absolute;
+
+    top:20px;
+    right:20px;
+
+    width:52px;
+    height:52px;
+
+    border:none;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+    color:#fff;
+
+    font-size:26px;
+
+    background:rgba(255,255,255,.12);
+
+    backdrop-filter:blur(10px);
+
+    z-index:100;
+
+    transition:.25s;
+
+}
+
+.service-close:hover{
+
+    background:var(--accent);
+
+    transform:rotate(90deg) scale(1.08);
+
+}
+
+/* ---------- SCROLL ---------- */
+
+.service-view-panel::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+.service-view-panel::-webkit-scrollbar-thumb{
+
+    background:rgba(255,255,255,.12);
+
+    border-radius:20px;
+
+}
+
+/* ---------- MOBILE ---------- */
+
+@media(max-width:768px){
+
+    .service-view{
+
+        padding:12px;
+
+    }
+
+    .service-body{
+
+        padding:25px;
+
+    }
+
+    .service-body h2{
+
+        font-size:1.7rem;
+
+    }
+
+    #serviceHeroAdvantages{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+body{
+
+    transition:
+        filter .35s,
+        transform .35s;
+
+}
+
+body.modal-open{
+
+    overflow:hidden;
+
+}
+
+.service-body>*{
+
+    opacity:0;
+
+    transform:translateY(25px);
+
+}
+
+.service-view.active .service-body>*{
+
+    opacity:1;
+
+    transform:none;
+
+}
+
+.service-view.active h2{
+
+    transition:.45s;
+    transition-delay:.15s;
+
+}
+
+.service-view.active p{
+
+    transition:.45s;
+    transition-delay:.25s;
+
+}
+
+.service-view.active #serviceHeroAdvantages{
+
+    transition:.45s;
+    transition-delay:.35s;
+
+}
+
+.service-view.active #serviceHeroBrands{
+
+    transition:.45s;
+    transition-delay:.45s;
+
+}
+
+.service-view.active #serviceConsultBtn{
+
+    transition:.45s;
+    transition-delay:.55s;
+
+}

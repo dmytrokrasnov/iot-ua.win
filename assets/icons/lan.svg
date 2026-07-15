@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="60.2mm" height="60.2mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 75.95 75.95"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#FFED00;stroke-width:1.26;stroke-miterlimit:22.9256}
+    .str0 {stroke:#00A0E3;stroke-width:1.26;stroke-miterlimit:22.9256}
+    .str2 {stroke:#00A0E3;stroke-width:0.95;stroke-miterlimit:22.9256}
+    .str3 {stroke:#00A0E3;stroke-width:0.25;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle class="fil0 str0" cx="29.77" cy="30.3" r="20.82"/>
+  <path class="fil0 str0" d="M29.38 51.11c-6.2,-4.63 -10.03,-11.44 -10.64,-18.76m0 -4.11c0.61,-7.32 4.44,-14.13 10.64,-18.76m-20.43 20.81l7.65 0m4.11 0l6.65 0m4.81 0l6.16 0m4.31 0l7.94 0m-20.82 -20.82l0 18.41m0 4.81l0 18.41m15.07 -6.31c-4.21,-3.25 -9.57,-5.03 -15.12,-5.03 -5.48,0 -10.77,1.74 -14.96,4.91m15.01 6.43c6.17,-4.61 10,-11.38 10.63,-18.66m0 -4.31c-0.63,-7.29 -4.46,-14.05 -10.63,-18.66m14.98 6.36c-4.21,3.25 -9.57,5.03 -15.12,5.03 -5.48,0 -10.77,-1.74 -14.96,-4.91"/>
+  <circle class="fil0 str0" cx="18.66" cy="30.3" r="2.06"/>
+  <circle class="fil0 str0" cx="40.49" cy="30.29" r="2.16"/>
+  <circle class="fil0 str0" cx="29.77" cy="30.3" r="2.41"/>
+  <circle class="fil0 str0" cx="60.94" cy="18.91" r="3.15"/>
+  <circle class="fil0 str1" cx="65.45" cy="42.2" r="3.15"/>
+  <circle class="fil0 str1" cx="65.45" cy="60.23" r="3.15"/>
+  <circle class="fil0 str0" cx="48.33" cy="60.23" r="3.15"/>
+  <circle class="fil0 str1" cx="32.82" cy="60.23" r="3.15"/>
+  <line class="fil0 str2" x1="37.47" y1="60.23" x2="43.27" y2= "60.23" />
+  <line class="fil0 str2" x1="53.78" y1="60.23" x2="60.39" y2= "60.23" />
+  <line class="fil0 str2" x1="65.45" y1="55.07" x2="65.45" y2= "47.26" />
+  <polyline class="fil0 str2" points="63.7,37.6 60.94,29.69 60.94,23.57 "/>
+  <rect class="fil0 str3" x="0.13" y="0.13" width="75.7" height="75.7" rx="7.65" ry="8.02"/>
+ </g>
+</svg>

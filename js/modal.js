@@ -75,6 +75,25 @@ phoneInput.addEventListener("keydown", (e) => {
 
 openBtn.addEventListener("click", () => {
 
+    // Загальна консультація
+    const serviceText = document.getElementById("selectedServiceText");
+    const serviceInput = document.getElementById("serviceInput");
+
+    if (serviceText) {
+        serviceText.textContent = "Загальна консультація";
+    }
+
+    if (serviceInput) {
+        serviceInput.value = "";
+    }
+
+    // Очистити повідомлення
+    const message = document.getElementById("message");
+
+    if (message) {
+        message.value = "";
+    }
+
     modal.classList.add("active");
 
     setTimeout(() => {
