@@ -72,33 +72,17 @@
 
 .service-hero{
 
-    position:relative;
-
     width:100%;
-    height:300px;
-
     overflow:hidden;
-
-    border-radius:28px 28px 0 0;
-
-    background:#0d1118;
 
 }
 
 .service-hero img{
 
-    position:absolute;
-
-    inset:0;
+    display:block;
 
     width:100%;
-    height:100%;
-
-    object-fit:cover;
-
-    object-position:center;
-
-    transition:transform .8s ease;
+    height:auto;
 
 }
 
