@@ -171,7 +171,7 @@ const data = {
 
     email: "",
 
-    service: "",
+    service: document.getElementById("selectedServiceText").textContent.trim(),
 
     message: document.getElementById("message").value.trim(),
 
