@@ -102,20 +102,22 @@ document.querySelectorAll("[data-service]").forEach(item => {
 
     },
 
-    render(service) {
+render(service) {
 
-        this.image.src = service.image;
-        this.image.alt = service.title;
+    this.image.src = service.image;
+    this.image.alt = service.title;
 
-        this.title.textContent = service.title;
+    this.title.textContent = service.title;
 
-        this.description.textContent = service.description;
+    this.description.innerHTML = Array.isArray(service.description)
+        ? service.description.join("<br><br>")
+        : service.description;
 
-        this.renderAdvantages(service);
+    this.renderAdvantages(service);
 
-        this.renderBrands(service);
+    this.renderBrands(service);
 
-    },
+},
 
     renderAdvantages(service) {
 
