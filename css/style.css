@@ -2376,3 +2376,63 @@ filter:blur(35px);
     font-size:20px;
 
 }
+
+.contact-item{
+
+    width:100%;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    text-decoration:none;
+
+    color:#fff;
+
+}
+
+button.contact-item{
+
+    font:inherit;
+
+    text-align:left;
+
+    background:rgba(255,255,255,.04);
+
+    border:1px solid rgba(255,255,255,.06);
+
+    cursor:pointer;
+
+}
+
+.service-button{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+}
+
+.service-button span{
+
+    flex:1;
+
+    text-align:left;
+
+}
+
+.service-button-icon{
+
+    width:26px;
+
+    height:26px;
+
+    object-fit:contain;
+
+    flex-shrink:0;
+
+}
