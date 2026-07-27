@@ -155,9 +155,9 @@
 
 </div>
 
-    <div id="particles"></div>
+<div id="particles"></div>
 
-    <header>
+<header>
 
         <div class="container">
 
@@ -181,16 +181,23 @@
 
             </nav>
 
-<button id="openModal" class="btn btn-primary">
+<div class="header-buttons">
+
+<button class="btn btn-secondary open-consultation">
     Консультація
-	
 </button>
+
+    <button id="openConfigurator" class="btn btn-primary">
+        Конфігуратор Ajax
+    </button>
+
+</div>
 
         </div>
 
     </header>
 
-    <section class="hero">
+<section class="hero">
 
         <div class="container hero-grid">
 
@@ -243,7 +250,7 @@
 
                    <img
             src="assets/logo.png"
-            alt="IoT-UA"
+            alt="IoT UA"
             class="hero-logo">
 
                     <ul>
@@ -270,337 +277,426 @@
 
     </section>
 
-    <section id="about">
-
-        <div class="container">
-
-            <h2>Про компанію</h2>
-
-            <p>
-
-                IoT UA — це команда, яка впроваджує сучасні технології для безпеки, автоматизації та цифрової інфраструктури. 
-				Ми створюємо рішення, що поєднують відеоаналітику, інтелектуальний контроль доступу, мережеві технології, 
-				резервне живлення та ІТ-системи в єдину екосистему. 
-				Працюємо з перевіреним обладнанням світових виробників і проєктуємо системи, 
-				готові до розвитку та інтеграції з майбутніми технологіями.
-
-            </p>
-
-        </div>
-
-    </section>
-
-<section id="services">
+ <section id="about" class="info-section">
 
     <div class="container">
 
-        <h2>Послуги</h2>
+        <div class="info-card">
 
-        <div class="services-grid">
+            <div class="info-image">
 
-            <article class="service-card" data-service="video">
+                <img src="assets/img/about.png"
+                     alt="IoT UA">
 
-                <img src="assets/icons/video.svg"
-                     alt="Відеоспостереження"
-                     class="service-icon">
+            </div>
 
-                <div class="service-content">
+            <div class="info-content">
 
-                    <h3>Відеоспостереження</h3>
+                <span class="info-badge">
+                    ПРО КОМПАНІЮ
+                </span>
 
-                    <p>IP та аналогові системи будь-якої складності.</p>
+                <h2>IoT UA — інженерні рішення для дому та бізнесу</h2>
 
-                </div>
+                <p>
+                    Ми створюємо сучасні системи безпеки, автоматизації та цифрової інфраструктури, поєднуючи відеоспостереження, контроль доступу, комп'ютерні мережі, резервне живлення та ІТ-рішення в єдину екосистему.
+                </p>
 
-            </article>
+                <div class="info-features">
 
-            <article class="service-card" data-service="access">
+                    <div>✔ Комплексний підхід</div>
 
-                <img src="assets/icons/control.svg"
-                     alt="Контроль доступу"
-                     class="service-icon">
+                    <div>✔ Сучасні технології</div>
 
-                <div class="service-content">
+                    <div>✔ Надійне обладнання</div>
 
-                    <h3>Контроль доступу</h3>
+                    <div>✔ Індивідуальні рішення</div>
 
-                    <p>Домофони, електрозамки, турнікети та облік доступу.</p>
+                    <div>✔ Професійний монтаж</div>
 
-                </div>
-
-            </article>
-
-            <article class="service-card" data-service="alarm">
-
-                <img src="assets/icons/secur.svg"
-                     alt="Сигналізація"
-                     class="service-icon">
-
-                <div class="service-content">
-
-                    <h3>Сигналізація</h3>
-
-                    <p>Охоронні та пожежні системи для будь-яких об'єктів.</p>
+                    <div>✔ Технічна підтримка</div>
 
                 </div>
 
-            </article>
+                <div class="info-buttons">
 
-            <article class="service-card" data-service="solar">
-
-                <img src="assets/icons/solar.svg"
-                     alt="СЕС"
-                     class="service-icon">
-
-                <div class="service-content">
-
-                    <h3>Сонячні електростанції</h3>
-
-                    <p>Монтаж, налаштування та сервіс сонячних електростанцій.</p>
+                    <a href="#services" class="btn btn-primary">
+                        Наші послуги
+                    </a>
 
                 </div>
-
-            </article>
-
-            <article class="service-card" data-service="it">
-
-                <img src="assets/icons/it.svg"
-                     alt="IT"
-                     class="service-icon">
-
-                <div class="service-content">
-
-                    <h3>IT-послуги</h3>
-
-                    <p>Комп'ютери, сервери, резервне копіювання та підтримка.</p>
-
-                </div>
-
-            </article>
-
-            <article class="service-card" data-service="network">
-
-                <img src="assets/icons/lan.svg"
-                     alt="Мережі"
-                     class="service-icon">
-
-                <div class="service-content">
-
-                    <h3>Комп'ютерні мережі</h3>
-
-                    <p>LAN, Wi-Fi, оптика та мережеве обладнання.</p>
-
-                </div>
-
-            </article>
-
-        </div>
-
-    </div>
-
-</section>
-
-<section id="advantages">
-
-    <div class="container">
-
-        <h2>Чому обирають IoT-UA</h2>
-
-        <div class="portfolio-grid">
-
-<article class="project advantage-card">
-
-    <div class="advantage-icon">
-
-        <img
-            src="assets/icons/shield.svg"
-            alt="Надійність">
-
-    </div>
-
-    <div class="advantage-content">
-
-        <h3>Надійність</h3>
-
-        <p>
-            Працюємо на результат.
-            Гарантуємо стабільність
-            та довготривалий ефект.
-        </p>
-
-    </div>
-
-</article>
-
-<article class="project advantage-card">
-
-    <div class="advantage-icon">
-
-        <img
-            src="assets/icons/quality.svg"
-            alt="Надійність">
-
-    </div>
-
-    <div class="advantage-content">
-
-        <h3>Якість</h3>
-
-        <p>
-            Використовуємо перевірене
-            обладнання та дотримуємось
-            високих стандартів.
-        </p>
-
-    </div>
-
-</article>
-
-<article class="project advantage-card">
-
-    <div class="advantage-icon">
-
-        <img
-            src="assets/icons/technology.svg"
-            alt="Надійність">
-
-    </div>
-
-    <div class="advantage-content">
-
-        <h3>Технології</h3>
-
-        <p>
-            Сучасні рішення та інноваційні
-            технології для вашого комфорту
-            та безпеки.
-        </p>
-
-    </div>
-
-</article>
-
-<article class="project advantage-card">
-
-    <div class="advantage-icon">
-
-        <img
-            src="assets/icons/support.png"
-            alt="Надійність">
-
-    </div>
-
-    <div class="advantage-content">
-
-        <h3>Підтримка</h3>
-
-        <p>
-            Завжди на зв'язку.
-            Консультуємо, допомагаємо
-            та супроводжуємо після запуску.
-        </p>
-
-    </div>
-
-</article>
-
-<article class="project advantage-card">
-
-    <div class="advantage-icon">
-
-        <img
-            src="assets/icons/security.png"
-            alt="Надійність">
-
-    </div>
-
-    <div class="advantage-content">
-
-        <h3>Безпека</h3>
-
-        <p>
-            Забезпечуємо захист майна,
-            даних та приватності
-            на всіх рівнях.
-        </p>
-
-    </div>
-
-</article>
-
-<article class="project advantage-card">
-
-    <div class="advantage-icon">
-
-        <img
-            src="assets/icons/network.png"
-            alt="Надійність">
-
-    </div>
-
-    <div class="advantage-content">
-
-        <h3>Індивідуальний підхід</h3>
-
-        <p>
-            Підбираємо рішення
-            під ваші потреби
-            та особливості об'єкту.
-        </p>
-
-    </div>
-
-</article>
-
-        </div>
-
-    </div>
-
-</section>
-
-    <section id="contacts">
-
-        <div class="container">
-
-            <h2>Контакти</h2>
-
-            <div class="contacts">
-
-                <a href="tel:+380673415770">
-
-                    📞 +38 (067) 341 57 70
-
-                </a>
-
-                <a href="https://t.me/IoT_UA_Official">
-
-                    Telegram
-
-                </a>
-<!--
-                <a href="#">
-
-                    Viber
-
-                </a>
--->
-                <a href="mailto:info@iot-ua.win">
-
-                    info@iot-ua.win
-
-                </a>
 
             </div>
 
         </div>
 
-    </section>
+    </div>
 
-    <footer>
+</section>
+	
+<section class="ajax-partner section">
+
+    <div class="container">
+
+        <div class="ajax-card">
+
+            <div class="ajax-image">
+
+                <img src="assets/img/ajax-certificate.png"
+                     alt="Сертифікат авторизованого партнера Ajax Systems">
+
+            </div>
+
+            <div class="ajax-content">
+
+                <span class="ajax-badge">
+                    AUTHORIZED PARTNER
+                </span>
+
+                <h2>Авторизований партнер </br>
+				Ajax Systems</h2>
+
+                <p>
+                    IoT UA є авторизованим партнером Ajax Systems та виконує
+                    проєктування, продаж, встановлення, налаштування та сервісне
+                    обслуговування сучасних систем безпеки.
+                </p>
+
+                <div class="ajax-features">
+
+                    <div>✔ Оригінальне обладнання</div>
+                    <div>✔ Професійний монтаж</div>
+                    <div>✔ Налаштування систем</div>
+                    <div>✔ Технічна підтримка</div>
+                    <div>✔ Гарантійний супровід</div>
+
+                </div>
+
+<div class="ajax-buttons">
+
+    <button
+        id="openAjaxCertificate"
+        class="btn btn-primary">
+
+        Переглянути сертифікат
+
+    </button>
+
+    <a
+        href="https://ajax.systems/ua/check-certificate/UA20263397329/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-outline">
+
+        Перевірити сертифікат
+
+    </a>
+
+</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="services" class="info-section">
+
+    <div class="container">
+
+        <div class="info-card">
+
+            <div class="info-image">
+
+                <img
+                    src="assets/img/services.png"
+                    alt="Послуги IoTUA">
+
+            </div>
+
+            <div class="info-content">
+
+                <span class="info-badge">
+                    ПОСЛУГИ
+                </span>
+
+                <h2>Комплексні рішення для дому та бізнесу</h2>
+
+                <p>
+
+                    Ми проєктуємо, встановлюємо та обслуговуємо сучасні системи безпеки,
+                    автоматизації, мережеву інфраструктуру, ІТ-рішення та резервне
+                    живлення. Натисніть на потрібний напрямок, щоб переглянути детальну
+                    інформацію.
+
+                </p>
+
+                <div class="service-buttons">
+
+                    <button class="service-button" data-service="video">
+
+                        <span>📹</span>
+
+                        Відеоспостереження
+
+                    </button>
+
+                    <button class="service-button" data-service="access">
+
+                        <span>🚪</span>
+
+                        Контроль доступу
+
+                    </button>
+
+                    <button class="service-button" data-service="alarm">
+
+                        <span>🛡</span>
+
+                        Охоронні системи
+
+                    </button>
+
+                    <button class="service-button" data-service="solar">
+
+                        <span>☀</span>
+
+                        Сонячні електростанції
+
+                    </button>
+
+                    <button class="service-button" data-service="it">
+
+                        <span>💻</span>
+
+                        IT-послуги
+
+                    </button>
+
+                    <button class="service-button" data-service="network">
+
+                        <span>🌐</span>
+
+                        Комп'ютерні мережі
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="advantages" class="info-section">
+
+    <div class="container">
+
+        <div class="info-card">
+
+            <div class="info-image">
+
+                <img
+                    src="assets/img/advantages.png"
+                    alt="Переваги IoTUA">
+
+            </div>
+
+            <div class="info-content">
+
+                <span class="info-badge">
+
+                    ПЕРЕВАГИ
+
+                </span>
+
+                <h2>Чому обирають IoT UA</h2>
+
+                <p>
+
+                    Ми реалізуємо сучасні комплексні рішення, забезпечуючи
+                    високу якість монтажу, підтримку та довготривалу
+                    надійність кожної системи.
+
+                </p>
+
+                <div class="advantage-buttons">
+
+                    <div class="advantage-button">
+
+                        <img src="assets/icons/shield.svg" alt="">
+
+                        <span>Надійність</span>
+
+                    </div>
+
+                    <div class="advantage-button">
+
+                        <img src="assets/icons/quality.svg" alt="">
+
+                        <span>Перевірене обладнання</span>
+
+                    </div>
+
+                    <div class="advantage-button">
+
+                        <img src="assets/icons/technology.svg" alt="">
+
+                        <span>Сучасні технології</span>
+
+                    </div>
+
+                    <div class="advantage-button">
+
+                        <img src="assets/icons/support.png" alt="">
+
+                        <span>Технічна підтримка</span>
+
+                    </div>
+
+                    <div class="advantage-button">
+
+                        <img src="assets/icons/security.png" alt="">
+
+                        <span>Максимальна безпека</span>
+
+                    </div>
+
+                    <div class="advantage-button">
+
+                        <img src="assets/icons/network.png" alt="">
+
+                        <span>Індивідуальний підхід</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contacts" class="info-section">
+
+    <div class="container">
+
+        <div class="info-card">
+
+            <div class="info-image">
+
+                <img
+                    src="assets/img/contact.png"
+                    alt="IoTUA">
+
+            </div>
+
+            <div class="info-content">
+
+                <span class="info-badge">
+                    КОНТАКТИ
+                </span>
+
+                <h2>Готові обговорити ваш проєкт?</h2>
+
+                <p>
+                    Зв'яжіться з нами будь-яким зручним способом. Ми допоможемо підібрати обладнання, підготуємо комерційну пропозицію та відповімо на всі питання.
+                </p>
+
+                <div class="contact-grid">
+
+                    <a href="tel:+380673415770" class="contact-item">
+
+                        <div class="contact-icon">📞</div>
+
+                        <div>
+
+                            <strong>Телефон</strong>
+
+                            <span>+38 (067) 341 57 70</span>
+
+                        </div>
+
+                    </a>
+
+                    <a href="https://t.me/IoT_UA_Official"
+                       target="_blank"
+                       class="contact-item">
+
+                        <div class="contact-icon">💬</div>
+
+                        <div>
+
+                            <strong>Telegram</strong>
+
+                            <span>@IoT_UA_Official</span>
+
+                        </div>
+
+                    </a>
+					
+					<a href="https://viber.me/380673415770"
+                       target="_blank"
+                       class="contact-item">
+
+                        <div class="contact-icon">💬</div>
+
+                        <div>
+
+                            <strong>Viber</strong>
+
+                            <span>+38 (067) 341 57 70</span>
+
+                        </div>
+
+                    </a>
+
+                    <a href="mailto:info@iot-ua.win"
+                       class="contact-item">
+
+                        <div class="contact-icon">✉</div>
+
+                        <div>
+
+                            <strong>Email</strong>
+
+                            <span>info@iot-ua.win</span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <div class="info-buttons">
+
+<button class="btn btn-primary open-consultation">
+    Отримати консультацію
+</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
 
         <div class="container">
 
-            © 2026 IoT-UA
+            © 2026 IoT UA
 
         </div>
 
@@ -731,55 +827,6 @@
 </div>
 
 
-<!-- ==========================================
-     IoT Assistant
-========================================== 
-
-<button id="chatToggle" class="chat-toggle">
-
-    <img src="assets/icons/iot-assistant.svg" alt="IoT Assistant">
-
-</button>
-
-<div id="chatWindow" class="chat-window">
-
-    <div class="chat-header">
-
-        <img src="assets/icons/iot-assistant.svg">
-
-        <div>
-
-            <h3>IoT Assistant</h3>
-
-            <span>Онлайн</span>
-
-        </div>
-
-        <button id="chatClose">&times;</button>
-
-    </div>
-
-    <div id="chatMessages" class="chat-messages">
-
-    </div>
-
-    <div class="chat-input">
-
-        <input
-            id="chatInput"
-            type="text"
-            placeholder="Напишіть повідомлення...">
-
-        <button id="chatSend">
-
-            ➜
-
-        </button>
-
-    </div>
-
-</div>
-================= -->
 <!-- ================= Service View ================= -->
 
 <div id="serviceView" class="service-view">
@@ -828,7 +875,24 @@
 
 </div>
 
+<!-- ==========================================
+     AJAX Certificate
+========================================== -->
+
+<div id="ajaxCertificateModal" class="image-modal">
+
+    <button id="closeAjaxCertificate" class="image-modal-close">
+        &times;
+    </button>
+
+    <img
+        src="assets/img/ajax-certificate.png"
+        alt="Сертифікат Ajax">
+
+</div>
+
 <script src="js/script.js"></script>
+<script src="js/consultation.js"></script>
 <script src="js/modal.js"></script>
 <script src="js/chat.js"></script>
 <script src="data/services.js"></script>

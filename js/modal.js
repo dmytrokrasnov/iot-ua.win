@@ -1,5 +1,5 @@
 const modal = document.getElementById("consultModal");
-const openBtn = document.getElementById("openModal");
+// const openBtn = document.getElementById("openModal");
 const closeBtn = document.getElementById("closeModal");
 
 const form = document.getElementById("consultForm");
@@ -73,34 +73,7 @@ phoneInput.addEventListener("keydown", (e) => {
 
 // ---------- Відкрити ----------
 
-openBtn.addEventListener("click", () => {
 
-    // Загальна консультація
-    const serviceText = document.getElementById("selectedServiceText");
-    const serviceInput = document.getElementById("serviceInput");
-
-    if (serviceText) {
-        serviceText.textContent = "Загальна консультація";
-    }
-
-    if (serviceInput) {
-        serviceInput.value = "";
-    }
-
-    // Очистити повідомлення
-    const message = document.getElementById("message");
-
-    if (message) {
-        message.value = "";
-    }
-
-    modal.classList.add("active");
-
-    setTimeout(() => {
-        document.getElementById("name").focus();
-    }, 250);
-
-});
 
 // ---------- Закрити ----------
 

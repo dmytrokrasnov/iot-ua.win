@@ -49,16 +49,16 @@ const IoTServiceView = {
 
         });
 
-        // Клік по картках
-        document.querySelectorAll(".service-card").forEach(card => {
+// Відкриття послуг
+document.querySelectorAll("[data-service]").forEach(item => {
 
-            card.addEventListener("click", () => {
+    item.addEventListener("click", () => {
 
-                this.open(card.dataset.service);
+        this.open(item.dataset.service);
 
-            });
+    });
 
-        });
+});
 
         // Кнопка консультації
         document

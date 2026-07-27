@@ -319,3 +319,66 @@ document.querySelectorAll(".stats h3").forEach(counter => {
     update();
 
 });
+
+const ajaxModal = document.getElementById("ajaxCertificateModal");
+
+const openAjax = document.getElementById("openAjaxCertificate");
+
+const closeAjax = document.getElementById("closeAjaxCertificate");
+
+openAjax.onclick = () => {
+
+    ajaxModal.classList.add("active");
+
+    document.body.style.overflow = "hidden";
+
+};
+
+closeAjax.onclick = () => {
+
+    ajaxModal.classList.remove("active");
+
+    document.body.style.overflow = "";
+
+};
+
+ajaxModal.onclick = (e) => {
+
+    if (e.target === ajaxModal) {
+
+        ajaxModal.classList.remove("active");
+
+        document.body.style.overflow = "";
+
+    }
+
+};
+
+const configuratorBtn = document.getElementById("openConfigurator");
+
+if (configuratorBtn) {
+
+    configuratorBtn.addEventListener("click", () => {
+
+        window.open(
+            "https://ajax.systems/ua/tools/configurator/iot-ua/",
+            "_blank"
+        );
+
+    });
+
+}
+
+document.querySelectorAll(".service-button").forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        const service = button.dataset.service;
+
+        document.querySelector(
+            `.service-card[data-service="${service}"]`
+        )?.click();
+
+    });
+
+});
