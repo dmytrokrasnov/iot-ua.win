@@ -9,7 +9,7 @@ const submitBtn = form.querySelector("button[type='submit']");
 const phoneInput = document.getElementById("phone");
 const phoneError = document.getElementById("phoneError");
 
-const WORKER_URL = "https://iotua-contact.d-krasnov.workers.dev";
+const WORKER_URL = "iot-ua-assistant.d-krasnov.workers.dev";
 
 // -----------------------------
 // Маска телефону +380 XX XXX XX XX
